@@ -1,3 +1,4 @@
+import sys
 from math import floor
 
 
@@ -5,19 +6,22 @@ def calculate_fuel(mass):
     return floor(int(mass) / 3) - 2
 
 
-with open('input.txt', 'r') as f:
-    mass_list = f.readlines()
+if __name__ == '__main__':
+    filename = sys.argv[1]
 
-    fuel_required = 0
-    additional_fuel_required = 0
+    with open(filename, 'r') as f:
+        mass_list = f.readlines()
 
-    for mass in mass_list:
+        fuel_required = 0
+        additional_fuel_required = 0
 
-        fuel = calculate_fuel(mass)
-        fuel_required += fuel
-        while fuel > 0:
-            additional_fuel_required += fuel
-            fuel = calculate_fuel(fuel)
+        for mass in mass_list:
 
-    print(f'Fuel required: {fuel_required}')
-    print(f'Additional Fuel required: {additional_fuel_required}')
+            fuel = calculate_fuel(mass)
+            fuel_required += fuel
+            while fuel > 0:
+                additional_fuel_required += fuel
+                fuel = calculate_fuel(fuel)
+
+        print(f'Fuel required: {fuel_required}')
+        print(f'Additional Fuel required: {additional_fuel_required}')
