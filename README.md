@@ -11,3 +11,5 @@ Usage: <day.py> <input_file>
 --- Day 3: Crossed Wires --- PENDING
 
 --- Day 4: Secure Container --- SOLVED
+
+--- Day 5: Sunny with a Chance of Asteroids --- SOLVED
