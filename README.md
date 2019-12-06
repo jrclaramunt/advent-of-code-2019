@@ -13,3 +13,5 @@ Usage: <day.py> <input_file>
 --- Day 4: Secure Container --- SOLVED
 
 --- Day 5: Sunny with a Chance of Asteroids --- SOLVED
+
+--- Day 6: Universal Orbit Map --- SOLVED
