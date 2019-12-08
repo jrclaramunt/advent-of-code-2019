@@ -15,3 +15,7 @@ Usage: <day.py> <input_file>
 --- Day 5: Sunny with a Chance of Asteroids --- SOLVED
 
 --- Day 6: Universal Orbit Map --- SOLVED
+
+--- Day 7: Amplification Circuit --- PENDING
+
+--- Day 8: Space Image Format --- SOLVED
