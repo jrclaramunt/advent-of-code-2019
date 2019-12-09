@@ -8,7 +8,7 @@ Usage: <day.py> <input_file>
 
 --- Day 2: 1202 Program Alarm --- SOLVED
 
---- Day 3: Crossed Wires --- PENDING
+--- Day 3: Crossed Wires --- SOLVED
 
 --- Day 4: Secure Container --- SOLVED
 
@@ -19,3 +19,5 @@ Usage: <day.py> <input_file>
 --- Day 7: Amplification Circuit --- PENDING
 
 --- Day 8: Space Image Format --- SOLVED
+
+--- Day 9: Sensor Boost --- PENDING
